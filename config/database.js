@@ -6,3 +6,5 @@ module.exports = {
 
 
 }
+
+// mongodb+srv://<username>:<password>@cluster0-xgyxi.mongodb.net/<dbname>?retryWrites=true&w=majority
