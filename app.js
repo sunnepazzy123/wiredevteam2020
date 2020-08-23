@@ -105,7 +105,7 @@ app.use("/admin/categories", categories);
 app.use("/admin/comments", comments);
 
 
-const PORT = 48000
+const PORT = process.env.PORT || 48000
 
 
 app.listen(PORT, ()=>{
